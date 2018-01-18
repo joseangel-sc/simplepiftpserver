@@ -1,4 +1,4 @@
-sudo apt-get install pure-ftpd
+sudo apt-get install pure-ftpd -y
 sudo groupadd ftpgroup
 sudo useradd ftpuser -g ftpgroup -s /sbin/nologin -d /dev/null
 sudo mkdir /home/pi/FTP
